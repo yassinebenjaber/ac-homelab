@@ -35,17 +35,17 @@ Creating users with powershell : <br/>
 <br />
 <p align="center" >
 Configurating the domain name and ip address of the server<br/>
- <img src="https://imgur.com/0sfqD0y" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <img src="https://imgur.com/0sfqD0y.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <p align="center" >
 creating client machine<br/>
- <img src="https://imgur.com/k1k3aa2" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <img src="https://imgur.com/k1k3aa2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <p align="center" >
 Creating an Admin user<br/>
- <img src="https://imgur.com/1EYB4hl" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <img src="https://imgur.com/1EYB4hl.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <p align="center" >
