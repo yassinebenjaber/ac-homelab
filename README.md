@@ -1,33 +1,30 @@
+# **Active Directory & Security Management with Keycloak**
 
-<h1>Active Directory Home Lab</h1>
+## **Description**
+I implemented an **Active Directory (AD) environment** using **Windows Server 2019**, integrated with a **Windows 10 client machine** for centralized management and security enforcement.
 
-<h2>Description</h2>
-I recently implemented an Active Directory (AD) environment using Windows Server 2019, integrated with a Windows 10 client machine. The project aimed to create a robust AD infrastructure, enhance security and access management via Keycloak, and perform security health checks using PingCastle.
+### **Key Implementations**
+- **Active Directory Setup:** Configured **AD DS**, **DNS**, **DHCP**, and **Group Policies** for user and system management.  
+- **Client Integration:** Joined a Windows 10 machine to the **AD domain**, enabling **SSO** and centralized policy control.  
+- **Keycloak Integration:**  
+  - Connected Keycloak to **AD via LDAP** for **federated identity management**.  
+  - Implemented **SSO** across apps and enforced **MFA (TOTP-based)** for security.  
+- **Security Assessments:** Used **PingCastle** for **AD security audits**, identifying vulnerabilities and enforcing best practices.
 
-I installed and configured Windows Server 2019 as the Domain Controller (DC) and set up DNS and DHCP for network management. I configured Active Directory Domain Services (AD DS), managing Organizational Units (OUs), user accounts, groups, and computer accounts. I also developed Group Policies to manage security settings, software installations, and user permissions.
+This project ensured **secure access management, centralized authentication, and continuous security monitoring** in an **enterprise-grade AD environment**.
 
-For client-side integration, I joined a Windows 10 machine to the AD domain, enabling centralized management and policy enforcement. This included configuring domain user accounts for single sign-on (SSO) and network resource access.
+---
 
-To enhance security and access management, I deployed Keycloak. I configured it to work alongside AD for federated identity management, synchronizing user accounts and credentials for SSO across applications. I implemented Role-Based Access Control (RBAC) policies and configured multi-factor authentication (MFA) and fine-grained authorization policies.
+## **Languages & Utilities Used**
+- **PowerShell**  
+- **Python**
 
-Using PingCastle, I performed comprehensive AD security assessments. I conducted scans to identify vulnerabilities and misconfigurations, analyzed reports, and addressed key issues like weak passwords and outdated protocols. Regularly scheduled scans ensured ongoing AD security and compliance.
-
-The project resulted in a stable, secure AD environment with Windows Server 2019 and Windows 10 integration. Centralized management improved operational efficiency. Keycloak provided robust identity and access management, and PingCastle ensured continuous AD security monitoring and improvement. This project demonstrated my ability to design, implement, and secure an AD environment using advanced tools.
-<br />
-
-
-<h2>Languages and Utilities Used</h2>
-
-- <b>PowerShell</b> 
-- <b>Python</b>
-
-<h2>Environments Used </h2>
-
-- <b>Windows 10</b> 
-- <b>Windows server 2019</b> 
-- <b>Oracle Virtual Machine</b>
-- <b>Keycloak</b>
-- <b>PingCastle</b>
+## **Environments Used**
+- **Virtual Box**  
+- **Windows Server 2019**  
+- **Windows 10**  
+- **Keycloak**  
+- **PingCastle**
 
 
 <h2>Program walk-through:</h2>
@@ -38,17 +35,17 @@ Creating users with powershell : <br/>
 <br />
 <p align="center" >
 Configurating the domain name and ip address of the server<br/>
- <img src="https://imgur.com/8lxGKCz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <img src="https://imgur.com/0sfqD0y" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <p align="center" >
 creating client machine<br/>
- <img src="https://imgur.com/WBL6aM9.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <img src="https://imgur.com/k1k3aa2" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <p align="center" >
 Creating an Admin user<br/>
- <img src="https://imgur.com/9NqCpCs.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <img src="https://imgur.com/1EYB4hl" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <p align="center" >
