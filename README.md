@@ -8,7 +8,7 @@ I implemented an **Active Directory** using **Windows Server 2019**, integrated 
 - **Client Integration:** Joined a Windows 10 machine to the **AD domain**, enabling **SSO** and centralized policy control.  
 - **Keycloak Integration:**  
   - Connected Keycloak to **AD via LDAP** for **federated identity management**.  
-  - Implemented **SSO** across apps and enforced **MFA (TOTP-based)** for security.  
+  - Implemented **SSO** across apps and enforced **MFA (Google Authenticator)** for security.  
 - **Security Assessments:** Used **PingCastle** for **AD security audits**, identifying vulnerabilities and enforcing best practices.
 
 This project ensured **secure access management, centralized authentication, and continuous security monitoring** in an **enterprise-grade AD environment**.
