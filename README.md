@@ -1,7 +1,7 @@
 # **Active Directory & Security Management with Keycloak**
 
 ## **Description**
-I implemented an **Active Directory (AD) environment** using **Windows Server 2019**, integrated with a **Windows 10 client machine** for centralized management and security enforcement.
+I implemented an **Active Directory** using **Windows Server 2019**, integrated with a **Windows 10 client machine** for centralized management and security.
 
 ### **Key Implementations**
 - **Active Directory Setup:** Configured **AD DS**, **DNS**, **DHCP**, and **Group Policies** for user and system management.  
